@@ -5,7 +5,7 @@
 // Though 0! is equal to 1, so treat it as an edge case.
 let num1 = Number(prompt('What number do you need the factor of?'));
 
-function findFactor(num1) {
+function(num1) {
     let count = 1
     for (let i = num1; i = 0; i--) {
         factor = num1 * i
