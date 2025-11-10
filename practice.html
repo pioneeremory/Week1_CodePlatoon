@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // This is a function to find the factorial of any number entered by a user
+
+        // set var to be whatever the user enters, converted to a num
+        let num1 = Number(prompt('What number do you need the factor of?'));
+        let factor = 1;
+
+        function findFactor(num1) {
+
+            // set i == num1, keep looping until i reaches 0, subtract -1 from i each loop iteration
+            for (let i = num1; i > 0; i--) {
+                console.log(`the factor is ${factor}`);
+                console.log(`i is ${i}`);
+                factor *= i;
+                console.log(`the factor is ${factor}`);
+                // 1st iteration, ex num1 = 10. 10*9
+                // rollingFactor = 90
+                // factor += rollingFactor
+                //2nd iteration, 
+                
+            }
+            return factor;
+        }
+        console.log(`The factor of ${num1} is ${findFactor(num1)}`)
+    </script>
+</body>
+</html>
+
