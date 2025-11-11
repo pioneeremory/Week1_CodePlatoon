@@ -25,7 +25,7 @@ function fibonacci(num) {
   return b;
 }
 
-fibonacci(20);
+fibonacci(3);
 
 module.exports = fibonacci;
 
